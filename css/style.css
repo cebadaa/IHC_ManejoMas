@@ -1,0 +1,62 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: #501E8B !important;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #501E8B;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* Media query para diseño responsivo. Cuando sea menor a 767px */
+@media (max-width: 767px) {
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 15px;
+}
+
+.nav-link.selected {
+    font-weight: bold;
+}
+
+/* Inicio */
+#inicio {
+    background-image: url('../assets/slide-1.png');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.cont-inicio {
+    background-color: #501E8B;
+    border-radius: 20px;
+}
+
+/* Servicios */
+
+#servicios {
+    background-color: green;
+    height: 100vh;
+}
