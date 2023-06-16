@@ -54,9 +54,55 @@ h6 {
     border-radius: 20px;
 }
 
-/* Servicios */
 
-#servicios {
-    background-color: green;
-    height: 100vh;
+
+
+
+/* Servicios */
+head, body{
+  background-color: rgb(255, 255, 255)
 }
+  
+  .card{
+    cursor: pointer;
+    background-color: #501E8B;
+
+  }
+  .p1{
+    font-size: 25px;font-weight: 550
+  }
+  
+  .card.hover, 
+  
+  .card:hover{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+  }
+  
+  .img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 35px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+    
+  }
+
+ 
+    
+    .card-title{
+      font-weight: 600
+    }
+    button.focus, 
+    button:focus{outline: 0;box-shadow: none !important}
+    
+    
+    .foot-servicio{
+      margin-top: 25px;
+    }
+
+    .p2{
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #222
+    }
